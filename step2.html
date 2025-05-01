@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Step 1: Selecting a Website</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .heuristic {
+              background: #fff;
+              border: 1px solid #ddd;
+              padding: 1em;
+              margin-bottom: 1.5em;
+              border-radius: 8px;
+              box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            }
+            .heuristic h3 {
+              margin-top: 0;
+            }
+            .severity {
+              font-weight: bold;
+              color: #b22222;
+            }
+            .recommendation {
+              background: #f0f8ff;
+              padding: 0.5em;
+              border-left: 4px solid #005288;
+              margin-top: 0.5em;
+            }
+          </style>
+    </head>
+    <body>
+        <header>
+            <h1>Piseth's Usability Testing Website</h1>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="step2.html">Heurstic Evaluation</a></li>
+                <li><a href="step3.html">Two Personas</a></li>
+                <li><a href="step4_5.html">Test Plan</a></li>
+                <li><a href="step6.html">Moderator Script</a></li>
+                <li><a href="step7.html">User Videos</a></li>
+                <li><a href="step8.html">Findings</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Step 2: Conduct a Heuristic Evaluation</h2>
+
+            <p><strong>Screenshot:</strong></p>
+            <img src="images/selected-site.png" alt="Screenshot of selected website" />
+            <section>
+                <h1>Heuristic Evaluation of Craigslist.org</h1>
+                <p><strong>Evaluator:</strong> Individual Expert</p>
+                <p><strong>Website Evaluated:</strong> <a href="https://www.craigslist.org" target="_blank">craigslist.org</a></p>
+                <p><strong>Date:</strong> 21/4/2025</p>
+                <p><strong>Methodology:</strong> Based on Jakob Nielsen’s 10 Usability Heuristics</p>
+
+                <div class="heuristic">
+                    <h3>1. Visibility of System Status</h3>
+                    <p>Craigslist provides basic feedback on user actions, such as posting or searching. However, feedback is often minimal or text-only. For example, after submitting a form or posting an ad, users receive confirmation, but there is little visual feedback or progress indicators during longer processes.</p>
+                    <p class="severity">Severity: 2 – Minor usability problem</p>
+                    <div class="recommendation">Recommendation: Introduce loading indicators and clearer confirmation messages, especially during posting and account creation.</div>
+                </div>
+
+                <div class="heuristic">
+                    <h3>2. Match Between System and the Real World</h3>
+                    <p>Craigslist uses everyday language such as "housing," "jobs," and "for sale," which aligns well with user expectations. However, some categories and subcategories (e.g., “gigs,” “etc/rants”) might confuse new users unfamiliar with site lingo.</p>
+                    <p class="severity">Severity: 2 – Minor usability problem</p>
+                    <div class="recommendation">Recommendation: Offer tooltips or brief descriptions for ambiguous categories.</div>
+                </div>
+
+                <div class="heuristic">
+                    <h3>5. Error Prevention</h3>
+                    <p>Forms lack input validation and helpful guidance. It’s easy to submit incorrect or incomplete information without immediate feedback.</p>
+                    <p class="severity">Severity: 4 – Major usability problem</p>
+                    <div class="recommendation">Recommendation: Introduce real-time validation and clearer input instructions to reduce errors.</div>
+                </div>
+
+                <div class="heuristic">
+                    <h3>6. Recognition Rather Than Recall</h3>
+                    <p>Navigation relies heavily on textual lists. While category names are familiar, there is limited use of icons or visual cues to help users quickly recognize options.</p>
+                    <p class="severity">Severity: 2 – Minor usability problem</p>
+                    <div class="recommendation">Recommendation: Incorporate icons or visual groupings to reduce cognitive load.</div>
+                </div>
+
+                <div class="heuristic">
+                    <h3>7. Flexibility and Efficiency of Use</h3>
+                    <p>Power features exist but are hidden from casual users.</p>
+                    <p class="severity">Severity: 3 – Moderate usability problem</p>
+                    <div class="recommendation">Recommendation: Promote power-user features and shortcuts.</div>
+                </div>
+
+                <div class="heuristic">
+                    <h3>8. Aesthetic and Minimalist Design</h3>
+                    <p>Minimalism aids usability, but design feels outdated.</p>
+                    <p class="severity">Severity: 2 – Minor usability problem</p>
+                    <div class="recommendation">Recommendation: Update visual style while preserving simplicity.</div>
+                </div>
+
+                <div class="heuristic">
+                    <h3>10. Help and Documentation</h3>
+                    <p>Craigslist offers a basic help section, but it's not prominent and lacks structure. First-time users might not find the support they need without searching manually.</p>
+                    <p class="severity">Severity: 3 – Moderate usability problem</p>
+                    <div class="recommendation">Recommendation: Improve help section layout; integrate contextual help links throughout the site..</div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Piseth San</p>
+        </footer>
+    </body>
+</html>
